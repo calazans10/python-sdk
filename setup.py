@@ -32,14 +32,14 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name='meli',
-    version='0.0.4',
-    url='https://github.com/calazans10/python-sdk.git',
-    license='MIT',
-    description='Fork from official Python SDK for MercadoLibre\'s Platform',
-    author=u'Jeferson Calazans',
-    author_email='calazans10@gmail.com',
-    long_description=read('README.md'),
+    name="meli",
+    version="0.0.4",
+    url="https://github.com/calazans10/python-sdk.git",
+    license="MIT",
+    description="Fork from official Python SDK for MercadoLibre's Platform",
+    author=u"Jeferson Calazans",
+    author_email="calazans10@gmail.com",
+    long_description=read("README.md"),
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Developers",
@@ -51,7 +51,7 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Internet",
         ],
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
-    install_requires=['distribute'],
+    packages=find_packages("src"),
+    package_dir={"": "src"},
+    install_requires=["distribute", "requests"],
 )
