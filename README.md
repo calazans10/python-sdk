@@ -94,7 +94,7 @@ params = {'access_token' : meli.access_token}
 response = meli.delete(path="/questions/123", params=params)
 ```
 
-#### Contributing
+## Contributing
 
 1. [Fork it](https://github.com/calazans10/python-sdk/fork)
 2. Create your feature branch (git checkout -b my-new-feature)
